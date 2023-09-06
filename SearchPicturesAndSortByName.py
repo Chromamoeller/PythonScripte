@@ -23,12 +23,10 @@ def organize_image_files_by_creation_date(src_folder, dest_folder):
                 print(f"Moved {file} to {dest_subfolder}")
 
 # Hauptfunktion
-def main():
-    source_folder = input("Bitte gib den Pfad zum Quellordner ein: ")
-    destination_folder = input("Bitte gib den Pfad zum Zielordner ein: ")
+def start(source_folder, destination_folder):
+    print("bin angekommen")
+    source_folder =source_folder
+    destination_folder = destination_folder
 
     organize_image_files_by_creation_date(source_folder, destination_folder)
     print("Bilddateien wurden nach Erstellungsdatum in neue Ordner verschoben.")
-
-if __name__ == "__main__":
-    main()
