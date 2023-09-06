@@ -24,7 +24,6 @@ def organize_image_files_by_creation_date(src_folder, dest_folder):
 
 # Hauptfunktion
 def start(source_folder, destination_folder):
-    print("bin angekommen")
     source_folder =source_folder
     destination_folder = destination_folder
 
